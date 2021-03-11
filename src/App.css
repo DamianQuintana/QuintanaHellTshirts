@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headerContainer{
+  color: red;
+  text-align-last: center;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  font-weight: 10px;
+}
+
+/* link sin visitar */
+a:link {
+  color: red;
+}
+
+/* link visitado*/
+a:visited {
+  color: rgb(133, 11, 11);
+}
+
+/* mouse sobre el link */
+a:hover {
+  color: black;
+}
+
+/* Seleccionador */
+a:active {
+  color: blue;
+}
+
+#headerCart{
+  color: red;
+  font-weight:100;
+}
+
+#MainHeader{
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+
+body {
+  font-size: 1rem;
+  background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #141414;
+}
+
