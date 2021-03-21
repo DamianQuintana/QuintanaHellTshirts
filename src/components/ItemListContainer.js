@@ -1,16 +1,13 @@
-import React from 'react';
+import Example from './ItemCount';
+import React, {useState} from 'react';
+import ItemList from './ItemList';
 
-function PropGreeting({greeting, buySome}){
-        return(
-            <>
-            <div>
-                <h1 class ="headerContainer" >
-                    {greeting}<br/>
-                    {buySome}
-                </h1>
-            </div>
-            </>
-        );
-    }
 
-export default PropGreeting;
+const ItemListContainer = (props) =>(//Acá vamos a recibir un array 
+  <div>
+    <h1>ITEMLISTCONTAINER</h1>
+    <ItemList items = {props.items}/>   
+  </div>
+);
+export default ItemListContainer;
+
